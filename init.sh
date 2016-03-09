@@ -1,1 +1,3 @@
-sudo apt-get install nginx
+#sudo apt-get install nginx
+sudo ln -s etc/nginx.conf  /etc/nginx/sites-enabled/default.conf
+sudo /etc/init.d/nginx restart
