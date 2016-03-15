@@ -1,4 +1,4 @@
-ln -s stepic201606/web web
+ln -s stepic201603/web web
 #sudo apt-get install nginx
 pip install gunicorn
 sudo ln -s /home/box/web/etc/hello.py /etc/gunicorn.d/hello.py
