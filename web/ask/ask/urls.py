@@ -18,4 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'blog/(?P<blog_name>[^/]+)/post/(?P<title>[^/]+)/?', post_details)
 ]
