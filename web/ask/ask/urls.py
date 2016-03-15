@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'blog/(?P<blog_name>[^/]+)/post/(?P<title>[^/]+)/?', post_details)
+    url(r'^question/(?P<question>[^/]+)/?','qa.views.test', name='qa_test' ),
 ]
