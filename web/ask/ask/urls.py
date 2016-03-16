@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^/','qa.views.login', 'qa.views.test', name='root' ),
     url(r'^question/(?P<question>[^/]+)/?','qa.views.test', name='qa_test' ),
 ]
