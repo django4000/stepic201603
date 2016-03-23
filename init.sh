@@ -1,5 +1,6 @@
 ln -s stepic201603/web web
 #sudo apt-get install nginx
+sudo /etc/init.d/mysql restart
 mysql -u root -e "CREATE DATABASE `db` /*!40100 DEFAULT CHARACTER SET utf8 */" 
 pip install gunicorn
 sudo ln -s /home/box/web/etc/hello.py /etc/gunicorn.d/hello.py

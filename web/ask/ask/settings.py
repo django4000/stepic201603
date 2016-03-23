@@ -82,10 +82,6 @@ DATABASES = {
 #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 	'NAME': 'db',
 	'USER': 'root',
-	'OPTIONS':{
-	default-character-set= utf8,
-	
-	}
     }
 }
 
